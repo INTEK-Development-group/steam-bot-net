@@ -1,0 +1,14 @@
+{
+  "profiles": {
+    "SteamBot": {
+      "commandName": "Project",
+      "commandLineArgs": "--port 7110"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker",
+      "launchUrl": "{Scheme}://{ServiceHost}:{ServicePort}",
+      "httpPort": 31312,
+      "useSSL": false
+    }
+  }
+}
